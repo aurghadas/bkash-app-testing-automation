@@ -1689,40 +1689,40 @@ def main():
     #login_error_check(driver, wait)
 
     # perform login
-    login(driver, wait)     # Assersion added (DONE)
+    login(driver, wait)    
 
     # check balance
-    check_balance(driver, wait)     # Assersion added (DONE)
+    check_balance(driver, wait)     
 
     #check inbox
-    check_inbox(driver, wait)       # Assersion added (DONE)
+    check_inbox(driver, wait)       
 
     #check transactions
-    check_transactions(driver, wait)    # Assersion added (DONE)  
+    check_transactions(driver, wait)    
 
     #check namaz roja details
-    namaz_roja_details(driver, wait)    # Assersion added (DONE)
+    namaz_roja_details(driver, wait)    
 
     #check send money
-    #send_money(driver, wait)             # Assersion added (DONE)---
+    #send_money(driver, wait)             # Sometimes this feature doesn't work on the wallet (not only for automation but also for manual testing as well)
 
     #check merchant payment
-    #merchant_payment(driver, wait)       # Assersion added (DONE)---
+    #merchant_payment(driver, wait)       # Sometimes this feature doesn't work on the wallet (not only for automation but also for manual testing as well)
 
     #check qr code
-    check_QR_code(driver, wait)          #Assersion added (DONE)
+    check_QR_code(driver, wait)         
 
     #check pay bills
-    #pay_bills(driver, wait)              # Assersion added (DONE)---
+    #pay_bills(driver, wait)              # Sometimes this feature doesn't work on the wallet (not only for automation but also for manual testing as well)
 
     #check savings registration
-    savings_registration(driver, wait)   # Assersion added (DONE)
+    savings_registration(driver, wait)   
 
     #check agent cashout
-    #agent_cashout(driver, wait)         # Assersion added (DONE)---
+    #agent_cashout(driver, wait)          #Sometimes this feature doesn't work on the wallet (not only for automation but also for manual testing as well)
 
     #check logout
-    logout(driver, wait)    # Assersion added  (DONE)
+    logout(driver, wait)  
 
     # Press HOME
     driver.press_keycode(AndroidKey.HOME)
