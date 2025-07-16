@@ -30,8 +30,9 @@ Each feature includes explicit assertions and descriptive console outputs to ind
 ---
 
 ## How to run the code?
-1. On terminal write 'python3 bkash-app-test.py'<br>
-2. Hit 'ENTER'<br>
+1. On first terminal execute 'adb devices' to check the device connectivity. <br>
+2. On second terminal execute 'appium &' to start the Appium server. <br>
+3. On third terminal exacute 'python3 bkash-app-test.py'<br>
 
 ---
 
