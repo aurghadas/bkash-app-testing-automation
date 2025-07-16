@@ -30,7 +30,7 @@ Each feature includes explicit assertions and descriptive console outputs to ind
 ---
 
 ## How to run the code?
-1. On terminal write 'python3 bkash-app-testing.py'<br>
+1. On terminal write 'python3 bkash-app-test.py'<br>
 2. Hit 'ENTER'<br>
 
 ---
