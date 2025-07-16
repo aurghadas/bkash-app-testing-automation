@@ -1704,23 +1704,23 @@ def main():
     namaz_roja_details(driver, wait)    
 
     #check send money
-    #send_money(driver, wait)             # Sometimes this feature doesn't work on the wallet (not only for automation but also for manual testing as well)
+    #send_money(driver, wait)             # Before executing this feature, make sure it's available on the wallet and working
 
     #check merchant payment
-    #merchant_payment(driver, wait)       # Sometimes this feature doesn't work on the wallet (not only for automation but also for manual testing as well)
+    #merchant_payment(driver, wait)       # Before executing this feature, make sure it's available on the wallet and working
 
     #check qr code
     check_QR_code(driver, wait)         
 
     #check pay bills
-    #pay_bills(driver, wait)              # Sometimes this feature doesn't work on the wallet (not only for automation but also for manual testing as well)
+    #pay_bills(driver, wait)             # Before executing this feature, make sure it's available on the wallet and working
 
     #check savings registration
     savings_registration(driver, wait)   
 
     #check agent cashout
-    #agent_cashout(driver, wait)          #Sometimes this feature doesn't work on the wallet (not only for automation but also for manual testing as well)
-
+    #agent_cashout(driver, wait)         # Before executing this feature, make sure it's available on the wallet and working
+    
     #check logout
     logout(driver, wait)  
 
