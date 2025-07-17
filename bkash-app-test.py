@@ -103,8 +103,8 @@ def login(driver, wait):
         # otherwise wait for the "লগইন" button to be present & clickable
         try:
             login_btn = wait.until(EC.element_to_be_clickable((
-                AppiumBy.ANDROID_UIAUTOMATOR,
-                'new UiSelector().text("লগইন")'
+                AppiumBy.ACCESSIBILITY_ID,
+                "লগইন"
             )))
             # Assert login button is displayed
             assert login_btn.is_displayed(), '"লগইন" button is not displayed'
